@@ -1,3 +1,79 @@
-body {background-image: url(https://www.theguytravel.com/wp-content/uploads/2016/09/annual-travel-insurance-plan-at-directasia.jpg);
-   background-repeat: no-repeat;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
     }
+    nav {
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
+      
+      nav ul {
+        list-style-type: none;
+        /* padding: 0; */
+      }
+      
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+     /* Some basic styling for contact form */
+     #contactForm {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      #contactForm input,
+      #contactForm textarea {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 8px;
+      }
+      #contactForm button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      #contactForm button:hover {
+        background-color: #0056b3;
+      }
+     #icon ul {
+        list-style-type: none;
+        width: 10%;
+     }
+     #icon ul li a {
+        display: block;
+       
+        position: fixed;
+        overflow: scroll;
+     }
+     .header {
+        margin-left: 10%;
+     }
+     .intro {
+        margin-left: 10%;
+     }
+     #table {
+        margin-left: 10%;
+        border-collapse: collapse;
+
+        padding: 15%;  
+     }
+     #team {
+        margin-left: 10%;
+     }
