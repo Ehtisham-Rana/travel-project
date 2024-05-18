@@ -1,14 +1,14 @@
-*{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg);
+    background-image: url(travel-agent.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    
+    background-size: cover;
+    background-attachment: fixed;
     }
     nav {
-        background-color: #f0f0f0;
+        color: #2c4e0c;
         padding: 20px;
         display: flex;
         align-items: center;
@@ -24,6 +24,7 @@
       nav ul li {
         display: inline;
         margin-right: 10px;
+        padding: 5px;
       }
       
       nav a {
@@ -31,10 +32,25 @@
         color: #333;
         font-weight: bold;
       }
+      nav button {
+        padding: 3px 4px;
+        margin-right: 8px;
+        background-color: #a6bd40;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      .header {
+        margin-left: 8%;
+        color: #2c4e0c;
+     }
+     .intro {
+        margin-left: 7%;
+     }
      /* Some basic styling for contact form */
      #contactForm {
         max-width: 400px;
-        margin: 0 auto;
+        margin-left: 10%;
       }
       #contactForm input,
       #contactForm textarea {
@@ -52,22 +68,40 @@
       #contactForm button:hover {
         background-color: #0056b3;
       }
-     #icon ul {
-        list-style-type: none;
-        width: 10%;
-     }
-     #icon ul li a {
-        display: block;
-       
+      .icon {
+        display: inline;
         position: fixed;
-        overflow: scroll;
+        
+      }
+     
+     .icon  a {
+        display: block;
+        margin-left: 10px;
+         
      }
-     .header {
-        margin-left: 10%;
+     .fa {
+      padding: 20px;
+      width: 20%;
+      text-align: center;
+      text-decoration: none;
      }
-     .intro {
-        margin-left: 10%;
-     }
+     .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #d3240d;
+    color: white;
+  }
      #table {
         margin-left: 10%;
         border-collapse: collapse;
@@ -76,4 +110,9 @@
      }
      #team {
         margin-left: 10%;
+     }
+     #team fieldset{
+      display: inline-flex;
+      padding: 1% 3%;
+      
      }

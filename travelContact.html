@@ -2,8 +2,10 @@
     <html>
      <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Travel Bloom </title>
         <link rel="stylesheet" href="./travel_project.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      </head>
      <body>
      <nav> <h1> Travel Bloom </h1>
@@ -14,16 +16,17 @@
             
         </ul>
      </nav>
+    
       <div class="header">
-         <h1>Contact Us</h1>
+         <h2>Contact Us</h2>
       </div>
       <div class= "icon">
-        <ul>
-           <li>Fb</li>
-           <li>insta</li>
-           <li>twiter</li>
-        </ul>
-      </div>
+        
+         <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+         <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+       
+     </div>
       <form id="contactForm">
         <div>
          <label for="name">Name</label>
@@ -39,6 +42,7 @@
         </div>
         <button type="submit" onclick="thankyou()">Submit</button>
      </form>
+     
       <script>
          function thankyou(){
              alert('Thank you for contacting us!')
